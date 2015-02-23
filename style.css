@@ -119,6 +119,13 @@ table {
     width: 970px;
     padding-top: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .introduction > .content {
+        width: 500px;
+    }}
+
+
 .introduction h1,
 .introduction h3 {
     color: white;
@@ -160,6 +167,12 @@ table {
     margin-top: 3rem;
     margin-left: 2rem;
 }
+
+@media only screen and (max-width: 1024px) {
+    .aboutme .content img {
+    height: 225px;
+    width: 200px;
+    }}
 .story {
     margin-top: 2.5rem;
     margin-left: 7rem;
@@ -171,5 +184,50 @@ table {
 .projects {
     background-color: #8C7468;
     margin-top: 0;
-    height: 41rem;
+}
+.projects .content h2 {
+    font-family: 'Play', sans-serif; 
+    font-size: 3.125rem; 
+    text-shadow: 2px 2px #BEA494;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding: 1.5rem;
+}
+.projects .content h3 {
+    margin-left: 7rem;
+    font-family: 'Play', sans-serif; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+.projects .content ul {
+    margin-left: 10rem;
+}
+.projects .content li {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+#projects {
+    padding-bottom: 2rem;
+}
+/* Footer */
+.contact {
+    height: 250px
+}
+.contact > .content{
+    text-align: center;
+    padding-top: 5rem;
+}
+.contact .content h1{
+    padding-bottom: 5em;
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
+.icons li {
+    display: inline;
+    padding-left: 5rem;
+}
+/* Responsive */
+body {
+    border: 5px red solid;
 }
